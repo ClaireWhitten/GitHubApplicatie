@@ -6,9 +6,10 @@ namespace GitHubApplicatie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Leeftijd:");
-            int leeftijd = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("Naam:");
+            int naam = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Age:");
+            int age = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
